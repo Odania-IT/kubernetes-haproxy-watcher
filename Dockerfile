@@ -1,4 +1,4 @@
-FROM ruby:2.4-alpine
+FROM ruby:2.7-alpine
 MAINTAINER Mike Petersen <info@odania-it.de>
 
 RUN apk --no-cache add ruby ruby-dev ruby-bundler build-base git
